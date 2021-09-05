@@ -1,3 +1,5 @@
+#DESMOS: https://www.desmos.com/calculator/dzriauachx
+
 import sympy as sp
 from enum import Enum
 
