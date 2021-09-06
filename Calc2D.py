@@ -24,6 +24,11 @@ def singleFunctionVolOfRev(func: sp.core.expr.Expr, solidtype: SolidType, a: int
 
 #takes a single power function and compresses it into a series of constants
 def compressPowerFunction(func: sp.core.expr.Expr) -> constantSeries:
+    #error pass: check whether the expression is a power function (alternatively, find a way to write that into the type requirement)
+    #find the highest degree of the expression (n)
+    #construct a list of length n + 1, set all those values to 0
+    #for each index (i) in the list, set that index equal to the coefficient of the variable with degree i
+    #return the list
     pass
 
 #takes a constant series and decompresses it into a power function
